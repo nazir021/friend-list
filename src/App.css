@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #D2B48C;
+}
+.person {
+  background: #FB4C19;
+  width: 17rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  transition: all 0.3s linear;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+.person img {
+  border-radius: 50%;
+  border: 0.1rem solid #F6D443;
+}
+
+.person h4 {
+  text-transform: capitalize;
+  margin: 0.5rem 0;
+  letter-spacing: 0.15rem;
+  color: #620251;
+}
+.person:hover {
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.navbar-brand{
+  color: #FB4C19;cursor: pointer;
+}
+ul{ 
+  color: #FB4C19;
+}
+ul li {
+  cursor: pointer;
+}
+ul li:hover {
+  color: #F6D443;
+}
+
